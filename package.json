@@ -1,0 +1,14 @@
+{
+  "name": "next-ts",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "install": "cd client && npm install && cd ../backend && npm install",
+    "backend": "cd backend && npm start",
+    "client": "cd client && npm run dev",
+    "start": "cd client && npm run export && cd ../backend && npm start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Priyansh Balyan",
+  "license": "ISC"
+}

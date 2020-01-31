@@ -1,0 +1,5 @@
+client/node_modules
+client/.next
+client/out
+backend/node_modules
+backend/.env
